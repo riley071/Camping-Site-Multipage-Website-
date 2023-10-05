@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <title>GWSC</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- swiper css link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- header section starts -->
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-campground"></i>GWSC</a>
+
+        <nav class="navbar">
+            <div id="close-navbar" class="fas fa-times"></div>
+            <a href="index.html">home</a>
+            <a href="features.html">features</a>
+            <a href="local.html">infomation</a>
+            <a href="pitch.php">pitchs</a>
+            <a href="review.html">Reviews</a>
+            <a href="contactus.html">contact</a>
+            <a href="local.html">Attractions</a>
+        </nav>
+
+        <div class="icons">
+            <div id="account-btn" class="fas fa-user"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+    </header>
+
+    <!-- account form section starts -->
+
+    <div class="account-form">
+
+        <div id="close-form" class="fas fa-times"></div>
+
+        <div class="buttons">
+            <a href="login.php" class="btn active login-btn">Login</a>
+            <a href="register.php" class="btn register-btn">Register</a>
+        </div>
+
+      
+
+    </div>
+
+    <!-- account form section ends -->
+
+<!-- Local Attractions section starts -->
+<section class="subjects">
+
+    <h1 class="heading">
+        Explore Local Attractions
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/narrow-road-green-grassy-field-surrounded-by-green-trees-with-bright-sun-background.jpg" alt="Local Attraction 1">
+            <h3>Nature Park</h3>
+            <p>Explore the breathtaking beauty of our local nature park. Enjoy scenic trails, wildlife, and tranquility.</p>
+        </div>
+
+        <div class="box">
+            <img src="images/beautiful-shot-famous-roman-colosseum-amphitheater-breathtaking-sky-sunrise.jpg" alt="Local Attraction 2">
+            <h3>Historic Landmarks</h3>
+            <p>Discover the rich history of our town by visiting historic landmarks and heritage sites.</p>
+        </div>
+
+        <div class="box">
+            <img src="images/close-up-smiley-woman-making-food.jpg" alt="Local Attraction 3">
+            <h3>Local Cuisine</h3>
+            <p>Savor the flavors of the region with delicious local cuisine at our charming restaurants.</p>
+        </div>
+
+        <div class="box">
+            <img src="images/art (1).jpg" alt="Local Attraction 4">
+            <h3>Outdoor Adventures</h3>
+            <p>Embark on exciting outdoor adventures, from hiking and biking to water sports.</p>
+        </div>
+
+        <div class="box">
+            <img src="images/african-man-painting-class-drawing-easel_1157-46861.jpg" alt="Local Attraction 5">
+            <h3>Arts and Culture</h3>
+            <p>Immerse yourself in our vibrant arts and culture scene with museums, galleries, and performances.</p>
+        </div>
+
+        <div class="box">
+            <img src="images/beautiful-young-woman-taking-selfie.jpg" alt="Local Attraction 6">
+            <h3>Shopping Spree</h3>
+            <p>Shop 'til you drop at our local boutiques, markets, and shopping districts.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Local Attractions section ends -->
+
+
+    <!-- footer section starts -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3><i class="fas fa-campground"></i> Global Wild Swimming and Camping</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sequi deleniti mollitia.</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="home.html" class="link">home</a>
+                <a href="about.html" class="link">about</a>
+                <a href="courses.html" class="link">courses</a>
+                <a href="contact.html" class="link">contact</a>
+            </div>
+
+            <div class="box">
+                <h3>useful links</h3>
+                <a href="#" class="link">help center</a>
+                <a href="#" class="link">ask questions</a>
+                <a href="#" class="link">send feedback</a>
+                <a href="#" class="link">private policy</a>
+                <a href="#" class="link">terms of use</a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <form action="">
+                    <input type="email" name="" placeholder="enter your email" id="" class="email">
+                    <input type="submit" value="subscribe" class="btn">
+                </form>
+            </div>
+
+        </div>
+
+        <div class="credit"> Copyright | all rights reserved! </div>
+
+    </section>
+    <!-- footer section ends -->
+    <script>
+
+        let searchForm = document.querySelector('.header .search-form');
+        let searchBtn = document.querySelector('#search-btn');
+        
+        // Toggle the search form when the search button is clicked
+        searchBtn.addEventListener('click', function () {
+            searchForm.classList.toggle('active');
+            searchForm.querySelector('input[type="search"]').focus(); // Focus on the search input
+        });
+        
+        // Close the search form when clicking outside of it
+        document.addEventListener('click', function (e) {
+            if (!searchForm.contains(e.target) && e.target !== searchBtn) {
+                searchForm.classList.remove('active');
+            }
+        });
+        
+        // Prevent the click event on the search form from propagating to the document
+        searchForm.addEventListener('click', function (e) {
+            e.stopPropagation();
+        });
+        
+        // Add the 'active' class to the search form when the search input is focused
+        searchForm.querySelector('input[type="search"]').addEventListener('focus', function () {
+            searchForm.classList.add('active');
+        });
+        </script>
+</body>
+
+</html>

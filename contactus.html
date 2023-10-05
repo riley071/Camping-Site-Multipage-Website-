@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <title>GWSC</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- swiper css link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- header section starts -->
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-campground"></i>GWSC</a>
+        
+        <nav class="navbar">
+            <div id="close-navbar" class="fas fa-times"></div>
+            <a href="index.html">home</a>
+            <a href="features.html">features</a>
+            <a href="info.html">infomation</a>
+            <a href="pitch.html">pitchs</a>
+            <a href="review.html">Reviews</a>
+            <a href="contactus.html">contact</a>
+            <a href="local.html">Attractions</a>
+        </nav>
+
+
+        <div class="icons">
+            <div id="account-btn" class="fas fa-user"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+    </header>
+
+    <!-- account form section starts -->
+
+    <div class="account-form">
+
+        <div id="close-form" class="fas fa-times"></div>
+
+        <div class="buttons">
+            <a href="login.php" class="btn active login-btn">Login</a>
+            <a href="register.php" class="btn register-btn">Register</a>
+        </div>
+    </div>
+
+    <!-- account form section ends -->
+
+
+
+
+
+<!-- contact section starts -->
+
+<section class="heading-link">
+    <h3> contact us</h3>
+    <p><a href="home.html">home</a> / contact</p>
+</section>
+
+<section id="contact" class="contact">
+
+    <h1 class="heading"> get in touch </h1>
+
+    <div class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-clock"></i>
+            <h3>opening hours :</h3>
+            <p>00:07am to 00:06pm</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-phone"></i>
+            <h3>phone :</h3>
+            <p>+01-333-999</p>
+            <p>911-222-944</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-envelope"></i>
+            <h3> email : </h3>
+            <p>ronytacodev@gmail.com</p>
+            <p>rteducation@edu.com</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-map"></i>
+            <h3>address :</h3>
+            <p>Lima, Perú</p>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contact-img.png" alt="">
+        </div>
+
+        <form action="">
+            <h3>send us a message</h3>
+            <input type="text" placeholder="name" class="box">
+            <input type="email" placeholder="email" class="box">
+            <input type="number" placeholder="phone" class="box">
+            <textarea name="" class="box" placeholder="message" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="send message" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section starts -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3><i class="fas fa-campground"></i> Global Wild Swimming and Camping</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sequi deleniti mollitia.</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="home.html" class="link">home</a>
+            <a href="about.html" class="link">about</a>
+            <a href="courses.html" class="link">courses</a>
+            <a href="contact.html" class="link">contact</a>
+        </div>
+
+        <div class="box">
+            <h3>useful links</h3>
+            <a href="#" class="link">help center</a>
+            <a href="#" class="link">ask questions</a>
+            <a href="#" class="link">send feedback</a>
+            <a href="#" class="link">private policy</a>
+            <a href="#" class="link">terms of use</a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <form action="">
+                <input type="email" name="" placeholder="enter your email" id="" class="email">
+                <input type="submit" value="subscribe" class="btn">
+            </form>
+        </div>
+
+    </div>
+
+    <div class="credit"> Copyright | all rights reserved! </div>
+
+</section>
+<!-- footer section ends -->
+
+    <!-- swiper js link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+
+        let searchForm = document.querySelector('.header .search-form');
+        let searchBtn = document.querySelector('#search-btn');
+        
+        // Toggle the search form when the search button is clicked
+        searchBtn.addEventListener('click', function () {
+            searchForm.classList.toggle('active');
+            searchForm.querySelector('input[type="search"]').focus(); // Focus on the search input
+        });
+        
+        // Close the search form when clicking outside of it
+        document.addEventListener('click', function (e) {
+            if (!searchForm.contains(e.target) && e.target !== searchBtn) {
+                searchForm.classList.remove('active');
+            }
+        });
+        
+        // Prevent the click event on the search form from propagating to the document
+        searchForm.addEventListener('click', function (e) {
+            e.stopPropagation();
+        });
+        
+        // Add the 'active' class to the search form when the search input is focused
+        searchForm.querySelector('input[type="search"]').addEventListener('focus', function () {
+            searchForm.classList.add('active');
+        });
+        </script>
+    <!-- custom js file link -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

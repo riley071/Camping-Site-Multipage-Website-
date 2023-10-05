@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <title>GWSC</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- swiper css link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Style for the view count container */
+.view-counter {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.view-counter h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#view-count-box {
+  background-color: #f2f2f2; /* Background color for the box */
+  padding: 20px; /* Padding around the box */
+  border-radius: 10px; /* Rounded corners for the box */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Box shadow for a 3D effect */
+}
+
+
+#view-count {
+  font-size: 36px;
+  font-weight: bold;
+  color: #33ff3d; /* Text color */
+}
+
+    </style>
+</head>
+
+<body>
+
+    <!-- header section starts -->
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-campground"></i>GWSC</a>
+
+        <nav class="navbar">
+            <div id="close-navbar" class="fas fa-times"></div>
+            <a href="index.html">home</a>
+         
+            <a href="features.html">features</a>
+            <a href="info.html">infomation</a>
+            <a href="pitch.php">pitchs</a>
+            <a href="review.html">Reviews</a>
+            <a href="contactus.html">contact</a>
+            <a href="local.html">Attractions</a>
+        </nav>
+
+        <div class="icons">
+            <div id="account-btn" class="fas fa-user"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+    </header>
+
+    <!-- account form section starts -->
+
+    <div class="account-form">
+
+        <div id="close-form" class="fas fa-times"></div>
+
+        <div class="buttons">
+            <a href="login.php" class="btn active login-btn">Login</a>
+            <a href="register.php" class="btn register-btn">Register</a>
+        </div>
+        
+       
+    </div>
+
+    <!-- account form section ends -->
+
+    <!-- header section ends -->
+
+    <!-- home section starts -->
+
+    <section id="home" class="home">
+
+        <div class="swiper home-slider">
+
+            <div class="swiper-wrapper">
+
+                <section class="swiper-slide slide" style="background: url(images/home-slide-2.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>Explore the Beauty of Wild Swimming</h3>
+                    <p>Discover our pristine swimming sites and immerse yourself in nature. Join us for an unforgettable experience.</p>
+                    <a href="#" class="btn">Get Started</a>
+                
+                    </div>
+                </section>
+
+                <section class="swiper-slide slide" style="background: url(images/home-slide-3.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>Camp Under the Stars</h3>
+                        <p>Experience the great outdoors with our camping pitches. Enjoy the serenity and connect with nature.</p>
+                        <a href="#" class="btn">Get Started</a>
+                    </div>
+                </section>
+
+                <section class="swiper-slide slide" style="background: url(images/home-slide-1.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>Your Adventure Awaits</h3>
+                        <p>Plan your next adventure with us. Book a swimming session or a camping pitch today.</p>
+                        <a href="#" class="btn">Get Started</a>
+                    </div>
+                </section>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+   
+   
+    <!-- home courses slider section starts -->
+
+    <section class="home-courses">
+
+        <h1 class="heading"> our popular activities </h1>
+
+        <div class="swiper home-courses-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/act (1).jpg" alt="">
+                        <h3>Lake View</h3>
+                        <div class="content">
+                            <h3>Lake view</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum numquam, maxime omnis.</p>
+                            <a href="#" class="btn">read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/act (2).jpg" alt="">
+                        <h3>Camp Fire</h3>
+                        <div class="content">
+                            <h3>Camp Fire</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum numquam, maxime omnis.</p>
+                            <a href="#" class="btn">read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/act (3).jpg" alt="">
+                        <h3>Wild Swimming</h3>
+                        <div class="content">
+                            <h3>Wild Swimming</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum numquam, maxime omnis.</p>
+                            <a href="#" class="btn">read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/act 4.jpg" alt="">
+                        <h3>Hiking</h3>
+                        <div class="content">
+                            <h3>Hiking</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum numquam, maxime omnis.</p>
+                            <a href="#" class="btn">read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/act (3).jpg" alt="">
+                        <h3>Wild Swimming</h3>
+                        <div class="content">
+                            <h3>Wild Swimming</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum numquam, maxime omnis.</p>
+                            <a href="#" class="btn">read more</a>
+                        </div>
+                    </div>
+                </div>
+
+             
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/act 4.jpg" alt="">
+                        <h3>Hiking</h3>
+                        <div class="content">
+                            <h3>Hiking</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum numquam, maxime omnis.</p>
+                            <a href="#" class="btn">read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <!-- home courses slider section end -->
+
+    <section class="heading-link">
+        <h3>about us</h3>
+        <p><a href="home.html">home</a> / about </p>
+    </section>
+
+    <!-- about section starts -->
+
+    <section id="about" class="about">
+
+        <div class="image">
+            <img src="images/act 4.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3 class="about-title">Discover the World of Wild Swimming and Camping</h3>
+            <p>Global Wild Swimming and Camping have approached us with a vision to create a website where they can share information on the various sites they have available for wild swimming and camping. They aim to provide details about different pitch types, availability, leisure facilities, nearby amenities, and rules for a memorable outdoor experience.</p>
+            <p>Our goal is to build a visually appealing and user-friendly website that is accessible on different devices. The website will also include a booking section for new users to reserve swimming sessions or camping pitches at their chosen sites.</p>
+               <div class="icons-container">
+                <div class="icons">
+                    <img src="images/tent_2050138.png" alt="">
+                    <h3>Camping</h3>
+                    <span>sites</span>
+                </div>
+
+                <div class="icons">
+                    <img src="images/deer_5351878.png" alt="">
+                    <h3>Swimming</h3>
+                    <span>pools</span>
+                </div>
+
+                <div class="icons">
+                    <img src="images/swimming_2264829.png" alt="">
+                    <h3>Wildlife</h3>
+                    <span>zoo</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- about section end -->
+
+    <!-- map -->
+    <section class="heading">
+        <h3>Our Location</h3>
+       
+    </section>
+
+    <section style="display: flex; justify-content: center; align-items: center; height: 500px;">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15076.89592087332!2d72.8319697277345!3d19.14167056419224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1636210664473!5m2!1sen!2sin" allowfullscreen="" loading="lazy" style="width: 80%; height: 80%;"></iframe>
+    </section>
+    
+    <section class="verification">
+        <div class="map-container">
+            <h2 class="location-heading">Verify Your Human</h2>
+            <div class="captcha-container">
+               
+                <div class="g-recaptcha" data-sitekey="6LcO8WYoAAAAAM5P186QS7inyb5Y0Fud8gCmTsj3"></div>
+                <div class="userInput">
+                    <!-- Other form fields go here -->
+                    <button class="captcha-btn" type="button" onclick="checkCaptcha()">Submit</button>
+                </div>
+            </div>
+        </div>
+    </section>
+      
+    <!--  section ends -->
+
+    <!-- art section starts -->
+
+    <section class="heading-link">
+        <h3> Camping Articles</h3>
+        <p><a href="index.html">home</a> / Camping Articles</p>
+    </section>
+
+    <section id="courses" class="courses">
+
+        <h1 class="heading"> Explore Camping with Our Articles</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/art (2).jpg" alt="">
+                    <h3>Camping with Kids</h3>
+                </div>
+                <div class="content">
+                    <h3>Family-Friendly Camping Tips</h3>
+                    <p>Discover family camping ideas and tips to ensure a fun and safe outdoor experience for kids.</p>
+                    <a href="#" class="btn">read more</a>
+                    <div class="icons">
+                        <span><i class="fas fa-calendar"> Published on: August 10, 2023</i></span>
+             
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/art (1).jpg" alt="">
+                    <h3>Wildlife Encounters</h3>
+                </div>
+                <div class="content">
+                    <h3>Enjoying Wildlife Safely While Camping</h3>
+                    <p>Learn how to appreciate and interact with wildlife responsibly during your camping trips.</p>
+                    <a href="#" class="btn">read more</a>
+                    <div class="icons">
+                        <span><i class="fas fa-calendar"> Published on: August 20, 2023</i></span>
+             
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/art (2).jpg" alt="">
+                    <h3>Camping with Kids</h3>
+                </div>
+                <div class="content">
+                    <h3>Family-Friendly Camping Tips</h3>
+                <p>Discover family camping ideas and tips to ensure a fun and safe outdoor experience for kids.</p>
+                <a href="#" class="btn">read more</a>
+                    <div class="icons">
+                        <span><i class="fas fa-calendar"> Published on: july 30, 2021</i></span>
+             
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/art (1).jpg" alt="">
+                    <h3>Wildlife Encounters</h3>
+                </div>
+                <div class="content">
+                    <h3>Enjoying Wildlife Safely While Camping</h3>
+                    <p>Learn how to appreciate and interact with wildlife responsibly during your camping trips.</p>
+                         <a href="#" class="btn">read more</a>
+                    <div class="icons">
+                        <span><i class="fas fa-calendar"> Published on: September 15, 2023</i></span>
+               
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/art (2).jpg" alt="">
+                    <h3>science</h3>
+                </div>
+                <div class="content">
+                    <h3>choose what's best for you!</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, sequi voluptates.</p>
+                    <a href="#" class="btn">read more</a>
+                    <div class="icons">
+                        <span><i class="fas fa-calendar"> Published on: August 30, 2023</i></span>
+             
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/art (1).jpg" alt="">
+                    <h3>Wildlife Encounters</h3>
+                </div>
+                <div class="content">
+                    <h3>Enjoying Wildlife Safely While Camping</h3>
+                <p>Learn how to appreciate and interact with wildlife responsibly during your camping trips.</p>
+                <a href="#" class="btn">read more</a>
+                    <div class="icons">
+                        <span><i class="fas fa-calendar"> Published on: August 30, 2023</i></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box hide">
+                <div class="image">
+                    <img src="images/art (2).jpg" alt="">
+                    <h3>Camping with Kids</h3>
+                </div>
+                <div class="content">
+                    <h3>Family-Friendly Camping Tips</h3>
+                <p>Discover family camping ideas and tips to ensure a fun and safe outdoor experience for kids.</p>
+               <a href="#" class="btn">read more</a>
+                    <div class="icons">
+                        <span><i class="fas fa-calendar"> Published on: August 30, 2023</i></span>
+              </div>
+                </div>
+            </div>
+
+            <div class="box hide">
+                <div class="image">
+                    <img src="images/art (1).jpg" alt="">
+                    <h3>Camping Safety</h3>
+
+                </div>
+                <div class="content">
+                    <h3>Stay Safe in the Wilderness: Camping Safety Tips</h3>
+                <p>Learn about essential safety measures and precautions to take on your camping adventures.</p>
+                <a href="#" class="btn">read more</a>
+                    <div class="icons">
+                        <span><i class="fas fa-calendar"> Published on: August 30, 2023</i></span>
+             
+                    </div>
+                </div>
+            </div>
+
+            <div class="box hide">
+                <div class="image">
+                    <img src="images/art (2).jpg" alt="">
+                    <h3>Camping Locations</h3>
+                </div>
+                <div class="content">
+                    <h3>Top Camping Locations: Where to Pitch Your Tent</h3>
+                <p>Explore some of the most picturesque and adventurous camping spots around the world.</p>
+               <a href="#" class="btn">read more</a>
+                    <div class="icons">
+                        <span><i class="fas fa-calendar"> Published on: August 30, 2023</i></span>
+             
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="load-more">
+            <div class="btn">load more</div>
+        </div>
+
+    </section>
+
+    <!--  section ends -->
+
+    <div class="view-counter">
+        <h2>Number of Views</h2>
+        <div id="view-count-box">
+            <span id="view-count">0</span>
+        </div>
+    </div>
+
+    <!-- footer section starts -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3><i class="fas fa-campground"></i> Global Wild Swimming and Camping</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sequi deleniti mollitia.</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="home.html" class="link">home</a>
+                <a href="about.html" class="link">about</a>
+                <a href="courses.html" class="link">courses</a>
+                <a href="contact.html" class="link">contact</a>
+            </div>
+
+            <div class="box">
+                <h3>useful links</h3>
+                <a href="#" class="link">help center</a>
+                <a href="#" class="link">ask questions</a>
+                <a href="#" class="link">send feedback</a>
+                <a href="#" class="link">private policy</a>
+                <a href="#" class="link">terms of use</a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <form action="">
+                    <input type="email" name="" placeholder="enter your email" id="" class="email">
+                    <input type="submit" value="subscribe" class="btn">
+                </form>
+            </div>
+
+        </div>
+
+        <div class="credit"> Copyright | all rights reserved! </div>
+
+    </section>
+    <!-- footer section ends -->
+
+    <!-- swiper js link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+
+        let searchForm = document.querySelector('.header .search-form');
+        let searchBtn = document.querySelector('#search-btn');
+        
+        // Toggle the search form when the search button is clicked
+        searchBtn.addEventListener('click', function () {
+            searchForm.classList.toggle('active');
+            searchForm.querySelector('input[type="search"]').focus(); // Focus on the search input
+        });
+        
+        // Close the search form when clicking outside of it
+        document.addEventListener('click', function (e) {
+            if (!searchForm.contains(e.target) && e.target !== searchBtn) {
+                searchForm.classList.remove('active');
+            }
+        });
+        
+        // Prevent the click event on the search form from propagating to the document
+        searchForm.addEventListener('click', function (e) {
+            e.stopPropagation();
+        });
+        
+        // Add the 'active' class to the search form when the search input is focused
+        searchForm.querySelector('input[type="search"]').addEventListener('focus', function () {
+            searchForm.classList.add('active');
+        });
+        </script>
+    <!-- custom js file link -->
+    <script src="js/script.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Get the view count element
+            const viewCountElement = document.getElementById("view-count");
+    
+            // Load the current view count from storage (or initialize to 0)
+            let currentViewCount = parseInt(localStorage.getItem("viewCount")) || 0;
+    
+            // Update the view count on the page
+            viewCountElement.textContent = currentViewCount;
+    
+            // Increment the view count
+            currentViewCount++;
+            viewCountElement.textContent = currentViewCount;
+    
+            // Save the updated view count to storage
+            localStorage.setItem("viewCount", currentViewCount.toString());
+        });
+    </script>
+
+<script>
+    function checkCaptcha() {
+        // Verify the reCAPTCHA response
+        grecaptcha.ready(function () {
+            grecaptcha.execute('6LcO8WYoAAAAAM5P186QS7inyb5Y0Fud8gCmTsj3', { action: 'submit' }).then(function (token) {
+                
+                fetch('YOUR_SERVER_VERIFICATION_ENDPOINT', {
+                    method: 'POST',
+                    body: JSON.stringify({ token: token }),
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                })
+                    .then(function (response) {
+                        return response.json();
+                    })
+                    .then(function (data) {
+                        if (data.success) {
+                            alert('reCAPTCHA verification passed. Proceed with your form submission.');
+                            // Add your form submission logic here
+                        } else {
+                            alert('reCAPTCHA verification failed. Please try again.');
+                            // Handle the verification failure
+                        }
+                    })
+                    .catch(function (error) {
+                        console.error('Error:', error);
+                    });
+            });
+        });
+    }
+</script>
+<script src="https://www.google.com/recaptcha/api.js"></script>
+</body>
+
+</html>

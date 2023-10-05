@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <title>GWSC</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- swiper css link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Center the weather container both vertically and horizontally */
+.weather-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh; /* Make the container take up the full viewport height */
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style the search input and button */
+.search {
+    display: flex;
+    align-items: center;
+}
+
+#city {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+#searchBtn {
+    padding: 10px 20px;
+    background-color: #0c6442;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Style the result area if needed */
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+}
+    </style>
+</head>
+
+<body>
+
+    <!-- header section starts -->
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-campground"></i>GWSC</a>
+
+        <nav class="navbar">
+            <div id="close-navbar" class="fas fa-times"></div>
+            <a href="index.html">home</a>
+            <a href="features.html">features</a>
+            <a href="info.html">infomation</a>
+            <a href="pitch.php">pitchs</a>
+            <a href="review.html">Reviews</a>
+            <a href="contactus.html">contact</a>
+            <a href="local.html">Attractions</a>
+        </nav>
+
+        <div class="icons">
+            <div id="account-btn" class="fas fa-user"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+    </header>
+
+    <!-- account form section starts -->
+
+    <div class="account-form">
+
+        <div id="close-form" class="fas fa-times"></div>
+
+        <div class="buttons">
+            <a href="login.php" class="btn active login-btn">Login</a>
+            <a href="register.php" class="btn register-btn">Register</a>
+        </div>
+
+       
+
+    </div>
+    <section class="heading-link">
+        <h3>Check Weather</h3>
+       
+    </section>
+
+    <div class="weather-container">
+        <h1>Weather App</h1>
+        <div class="search">
+            <input type="text" id="city" placeholder="Enter city name">
+            <button id="searchBtn">Search</button>
+        </div>
+        <div class="result">
+            <!-- Weather information will be displayed here -->
+        </div>
+    </div>
+
+<!-- weather end-->
+<section class="subjects">
+    <h1 class="heading">
+        Information: Explore Pages of Interest
+    </h1>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="images/pitch-icon.png" alt="">
+            <h3>Pitch Types & Availability</h3>
+            <p>Discover our variety of pitch types and check their availability for your stay.</p>
+        </div>
+
+        <div class="box">
+            <img src="images/features-icon.png" alt="">
+            <h3>Features</h3>
+            <p>Explore the exciting features and amenities we offer at our campsite.</p>
+        </div>
+
+        <div class="box">
+            <img src="images/location-icon.png" alt="">
+            <h3>Location</h3>
+            <p>Find our campsite on the map and get directions to our beautiful location.</p>
+        </div>
+
+        <div class="box">
+            <img src="images/attractions-icon.png" alt="">
+            <h3>Local Attractions</h3>
+            <p>Discover nearby attractions, restaurants, shops, and more to enhance your experience.</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- map -->
+
+<section class="location">
+    <h3>Our Location</h3>
+    <p>We are located at:</p>
+    <address>
+        <p>Jogeshwari West,</p>
+        <p>Mumbai, Maharashtra 400047</p>
+    </address>
+    <p>Find us on the map below:</p>
+</section>
+
+<section class="map-container">
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15076.89592087332!2d72.8319697277345!3d19.14167056419224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1636210664473!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+</section>
+<!-- mapend -->
+
+
+    <section class="footer">
+
+        <div class="box-container">
+    
+            <div class="box">
+                <h3><i class="fas fa-campground"></i> Global Wild Swimming and Camping</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sequi deleniti mollitia.</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="home.html" class="link">home</a>
+                <a href="about.html" class="link">about</a>
+                <a href="courses.html" class="link">courses</a>
+                <a href="contact.html" class="link">contact</a>
+            </div>
+    
+            <div class="box">
+                <h3>useful links</h3>
+                <a href="#" class="link">help center</a>
+                <a href="#" class="link">ask questions</a>
+                <a href="#" class="link">send feedback</a>
+                <a href="#" class="link">private policy</a>
+                <a href="#" class="link">terms of use</a>
+            </div>
+    
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <form action="">
+                    <input type="email" name="" placeholder="enter your email" id="" class="email">
+                    <input type="submit" value="subscribe" class="btn">
+                </form>
+            </div>
+    
+        </div>
+    
+        <div class="credit"> Copyright | all rights reserved! </div>
+    
+    </section>
+    <!-- footer section ends -->
+    <script>
+
+        let searchForm = document.querySelector('.header .search-form');
+        let searchBtn = document.querySelector('#search-btn');
+        
+        // Toggle the search form when the search button is clicked
+        searchBtn.addEventListener('click', function () {
+            searchForm.classList.toggle('active');
+            searchForm.querySelector('input[type="search"]').focus(); // Focus on the search input
+        });
+        
+        // Close the search form when clicking outside of it
+        document.addEventListener('click', function (e) {
+            if (!searchForm.contains(e.target) && e.target !== searchBtn) {
+                searchForm.classList.remove('active');
+            }
+        });
+        
+        // Prevent the click event on the search form from propagating to the document
+        searchForm.addEventListener('click', function (e) {
+            e.stopPropagation();
+        });
+        
+        // Add the 'active' class to the search form when the search input is focused
+        searchForm.querySelector('input[type="search"]').addEventListener('focus', function () {
+            searchForm.classList.add('active');
+        });
+        </script>
+    <!-- swiper js link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+        const apiKey = "e1dcc06baebc43b4fecbb7eab4ca5df0"; // Replace with your API key
+        const searchBtn = document.getElementById("searchBtn");
+    
+        searchBtn.addEventListener("click", () => {
+            const city = document.getElementById("city").value;
+            if (city) {
+                getWeather(city, apiKey);
+            }
+        });
+    
+        function getWeather(city, apiKey) {
+            const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+    
+            fetch(apiUrl)
+                .then((response) => response.json())
+                .then((data) => {
+                    if (data.cod === "404") {
+                        displayError("City not found");
+                    } else {
+                        displayWeather(data);
+                    }
+                })
+                .catch((error) => {
+                    displayError("An error occurred");
+                });
+        }
+    
+        function displayWeather(data) {
+            const resultContainer = document.querySelector(".result");
+            resultContainer.innerHTML = `
+                <h2>${data.name}, ${data.sys.country}</h2>
+                <p>${data.weather[0].description}</p>
+                <p>Temperature: ${data.main.temp}°C</p>
+                <p>Humidity: ${data.main.humidity}%</p>
+            `;
+        }
+    
+        function displayError(message) {
+            const resultContainer = document.querySelector(".result");
+            resultContainer.innerHTML = `<p>${message}</p>`;
+        }
+    });
+    
+    </script>
+    <!-- custom js file link -->
+    <script src="js/script.js"></script>
+    </body>
+    
+    </html>
+    
