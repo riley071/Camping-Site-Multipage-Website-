@@ -38,7 +38,6 @@ GWSC have the following basic requirements for the contents of the website which
 
 # SCREENSHOT
 
-![image](https://github.com/riley071/Camping-Site-Multipage-Website-/assets/81653537/125d0be1-f0ce-41be-b543-5b2b6d276b27)
 
 ![image](https://github.com/riley071/Camping-Site-Multipage-Website-/assets/81653537/1121fc9c-b232-4485-a0f0-729e72d93f2c)
 
