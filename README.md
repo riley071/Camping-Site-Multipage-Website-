@@ -1,4 +1,4 @@
-![image](https://github.com/riley071/Camping-Site-Multipage-Website-/assets/81653537/1121fc9c-b232-4485-a0f0-729e72d93f2c)#  Wild Swimming and Camping 
+#  Wild Swimming and Camping 
 Code to create website theme camp with HTML, SASS, JAVASCRIPT.
 
 # TARGETS :pushpin: :rocket:
@@ -40,6 +40,7 @@ GWSC have the following basic requirements for the contents of the website which
 
 ![image](https://github.com/riley071/Camping-Site-Multipage-Website-/assets/81653537/125d0be1-f0ce-41be-b543-5b2b6d276b27)
 
+![image](https://github.com/riley071/Camping-Site-Multipage-Website-/assets/81653537/1121fc9c-b232-4485-a0f0-729e72d93f2c)
 
 ![image](https://github.com/riley071/Camping-Site-Multipage-Website-/assets/81653537/979da8f8-e1f6-4f01-aaa5-7798c0445f20)
 
